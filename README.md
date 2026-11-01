@@ -1,10 +1,10 @@
 ## CPU-SIM
 CSA-CPU-Sim-Lab## Computer System Architecture – CPU Sim Lab
 <<<<<<< HEAD
-Name:-  Taniya
+Name:-  Aditya Agarwal
 =======
-# Name:- Taniya
-# Roll No:- 26570063
+# Name:- Aditya Agarwal
+# Roll No:- 26570003
 # Course / Semester:- Bsc(hons)computer science,semester-1
 # College	Ramanujan College, University of Delhi
 # Paper	Computer System Architecture
