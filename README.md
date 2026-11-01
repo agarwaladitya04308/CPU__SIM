@@ -1,45 +1,72 @@
-## CPU-SIM
-CSA-CPU-Sim-Lab## Computer System Architecture – CPU Sim Lab
-<<<<<<< HEAD
-Name:-  Aditya Agarwal
-=======
-# Name:- Aditya Agarwal
-# Roll No:- 26570003
-# Course / Semester:- Bsc(hons)computer science,semester-1
-# College	Ramanujan College, University of Delhi
-# Paper	Computer System Architecture
-Simulation of Mano's Basic Computer using CPU Sim 4.0.11 (Java 8 with JavaFX). Each practical has its own folder containing the program (where applicable) and the screenshots of its output.
 
-# Repository structure
+# CSA-CPU-Sim-Lab
+## Computer System Architecture – CPU Sim Lab
+
+**Name:** Aditya Agarwal  
+**Roll No.:** 26570003  
+**Course / Semester:** B.Sc. (Hons.) Computer Science, Semester 1  
+**College:** Ramanujan College, University of Delhi  
+**Paper:** Computer System Architecture  
+
+---
+
+## About the Project
+
+This repository contains practical work based on Mano's Basic Computer, implemented and simulated using CPU Sim 4.0.11.
+
+Each practical is organised into a separate folder containing relevant machine files, assembly programs (where applicable), and screenshots demonstrating execution and output.
+
+## Repository Structure
+
+```text
 CSA-CPU-Sim-Lab/
+│
 ├── README.md
-├── Practical_01_Create_Machine/
-│   ├── BasicComputer.cpu        <- the machine used by all other practicals
-│   └── screenshots/
-├── Practical_02_Fetch_Routine/
-│   └── screenshots/
-├── Practical_03_ADD/
-│   ├── P03_ADD.a
-│   └── screenshots/
-│   ...
-└── Practical_11_Sum_Until_Zero/
-    ├── P11_SUM_UNTIL_ZERO.a
-    └── screenshots/
+├── BASIC_COMPUTER.CPU
+│
+├── PRACTICAL_01_CREATE_MACHINE/
+├── PRACTICAL_02_FETCH_ROUTINE/
+├── PRACTICAL_03_ADD/
+├── PRACTICAL_04_SUBTRACT/
+├── PRACTICAL_05_LOGICAL_OPS/
+├── PRACTICAL_06_MEMORY_REFERENCE/
+├── PRACTICAL_07_CLA_CMA_CME_HLT/
+├── PRACTICAL_08_INC_SPA_SNA_SZE/
+├── PRACTICAL_09_CIR_CIL/
+├── PRACTICAL_10_SUM_UNTIL_NEGATIVE/
+└── PRACTICAL_11_SUM_UNTIL_ZERO/
+```
 
-  # How to run
-      
-1.Install Java 8 with JavaFX (for example Azul Zulu JDK FX 8) and download CPU Sim 4.0.11.
-2.Start CPU Sim (Cpusim4.bat).
-3.File → Open machine… and choose Practical_01_Create_Machine/BasicComputer.cpu.
-4.File → Open text… and choose the .a program from the practical's folder.
-5.Press Ctrl+2 (assemble and load), then:
-6.Ctrl+R to run, or
-7.Ctrl+D to enter debug mode and use Step by Instr / Step by Micro.
-8.For programs that read input, type a number in the yellow console and press Enter.
-9.Example (Practical 3): open Practical_03_ADD/P03_ADD.a, press Ctrl+2, then Ctrl+R, and enter 25 and 17. The console shows
+Each practical folder contains screenshots documenting the corresponding practical work.
 
+## Software Requirements
 
-# Notes
+- Java 8 with JavaFX
+- CPU Sim 4.0.11
 
-1.Practical 2 uses the same machine file as Practical 1; its screenshots show the fetch routine executed one microinstruction at a time .
-2.Register values in the debug traces are shown in Unsigned Dec; the RAM pane is shown in Hex.
+## How to Run
+
+1. Install Java 8 with JavaFX (for example, Azul Zulu JDK FX 8).
+2. Download and launch CPU Sim 4.0.11.
+3. Open CPU Sim and navigate to **File → Open Machine**.
+4. Select `BASIC_COMPUTER.CPU`.
+5. If an assembly (`.a`) program is available, open it using **File → Open Text**.
+6. Press **Ctrl + 2** to assemble and load the program.
+7. Press **Ctrl + R** to execute the program.
+8. To execute instructions step by step, use **Ctrl + D** to enter debug mode and select *Step by Instr* or *Step by Micro*.
+9. For programs requiring input, enter the required value in the yellow console and press Enter.
+
+## Notes
+
+1. Practical 02 uses the same machine file created in Practical 01. Its screenshots demonstrate the fetch routine being executed one microinstruction at a time.
+2. Register values in debug traces are displayed in **Unsigned Decimal** format.
+3. The RAM pane displays values in **Hexadecimal** format.
+4. Screenshots are provided as documentation of practical execution and output.
+
+---
+
+## Author
+
+**Aditya Agarwal**  
+B.Sc. (Hons.) Computer Science  
+Ramanujan College, University of Delhi
